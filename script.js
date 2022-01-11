@@ -24,7 +24,7 @@ const gameBoard = (() => {
     return {setField, getField, reset};
 })();
 
-const player = (sign) => {
+const Player = (sign) => {
     this.sign = sign;
 
     const getSign = () =>{
